@@ -1,0 +1,29 @@
+{
+  "name": "quasar-vite-issue",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "build:qa": "vite build --mode qa"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "dependencies": {
+    "quasar": "^2.16.4",
+    "vue": "^3.4.27"
+  },
+  "devDependencies": {
+    "@quasar/vite-plugin": "^1.7.0",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.14.2",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/tsconfig": "^0.5.1",
+    "sass": "^1.77.4",
+    "typescript": "~5.3.3",
+    "vite": "^5.2.12",
+    "vue-tsc": "^2.0.19"
+  },
+  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
+}
